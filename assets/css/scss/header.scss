@@ -1,0 +1,37 @@
+//Шапка
+.header {
+    &__line_flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        margin: 24px 0;
+    }
+    &__ul_flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+    &__li {
+        padding: 4px 12px;
+        display: inline-block;
+    }
+    &__anchorLi {
+        color: #485064;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 0.02em;
+        font-variant: small-caps;
+    }
+    &__anchorLi:hover {
+        color: #16E09E;
+        transition: all .5s;
+    }
+    &__lng {
+        order: 1;
+    }
+}

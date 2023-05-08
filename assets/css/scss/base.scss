@@ -1,0 +1,44 @@
+//Основа
+
+.color_grey800 {
+    color: #202027;
+}
+.color_grey700 {
+    color: #485064;
+}
+.color_grey600 {
+    color: #727D99;
+}
+.color_grey100 {
+    color: #F9FBFD;
+}
+.color_turquoise {
+    color: #16E09E;
+}
+.color_purple {
+    color: #7C4EFF;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    margin-bottom: 200px;
+}
+.btn {
+    width: 190px;
+    height: 56px;
+    background-color: #926BFF;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.02em;
+    font-variant: small-caps;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
